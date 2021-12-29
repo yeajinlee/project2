@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MULTI RESTAURANT</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <style>
+        .navbar-default {
+            border: none;
+            background-color: salmon;
+            margin: 0px;
+            padding: 0px;
+            /* padding: 0px auto; */
+        }
+
+        .jumbotron {
+            background-color: rgb(131, 129, 129);
+        }
+
+        .btn-lg{
+            background-color: salmon;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-default navbar-expand-lg navbar-dark fixed-top">
+        <a href="Main.html"><img src="img/nav.png" width="80" height="80" alt="">
+            <a class="navbar-brand" href="Main.html"> MULTI <br> RESTAURANT</a>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <div class="col-lg-6">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <strong style="color:white">지역별</strong>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">지역1</a>
+                            <a class="dropdown-item" href="#">지역2</a>
+                            <a class="dropdown-item" href="#">지역3</a>
+                            <a class="dropdown-item" href="#">지역4</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="mmain_sub.html" style="color:white"><strong>추천 메뉴</strong> </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="color:white"><strong>최근 후기</strong> </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="color:white"><strong>신규 개업</strong> </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+            <form class="form-inline">
+                <button class="btn btn-sm btn-outline-light" type="button">로그인</button>
+                <button class="btn btn-sm btn-outline-light" type="button">회원가입</button>
+                <button class="btn btn-sm btn-outline-light" type="button">1:1 문의</button>
+            </form>
+    </nav>
+    <br><br><br>
+    <div class="jumbotron">
+        <header class="main">
+            <div class="container position-relative">
+                <div class="row justify-content-center">
+                    <div class="col-xl-6">
+                        <div class="text-center text-light">
+                            <h1 class="mb-5">내 주변의 숨은 맛집 검색하기</h1>
+                            <div class="row">
+                                <div class="col">
+                                    <input class="form-control form-control-lg" id="search"
+                                        placeholder="지역, 식당 또는 음식 검색하기" data-sb-validations="required,email" />
+                                </div>
+                                <div class="col-auto"><button class="btn btn-lg btn-outline-light" id="submitButton"
+                                        type="submit">SEARCH</button></div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!---->
+    </div>
+    <section class>
+        <div class="container px-5 my-5">
+            <div class="row gx-5 justify-content-center">
+                <div class="col-lg-6 col-xl-4">
+                    <div class="card mb-5 mb-xl-0">
+                        <a href="mmain.html"><img src="img/bg-main.jpg" width="327" height="200" alt=""></a>
+                        <div class="card-body">
+                            <div class="small text-uppercase fw-bold text-muted">Free</div>
+                            <div class="mb-3">
+                                <span class="display-4 fw-bold">$0</span>
+                                <span class="text-muted">/ mo.</span>
+                            </div>
+                            <ul class="list-unstyled mb-4">
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    <strong>1 users</strong>
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    oo
+                                </li>
+                            </ul>
+                            <div class="d-grid"><a class="btn btn-outline-primary" href="#!">보러가기</a></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 두번째-->
+                <div class="col-lg-6 col-xl-4">
+                    <div class="card mb-5 mb-xl-0">
+                        <a href="mmain.html"><img src="img/bg-main.jpg" width="327" height="200" alt=""></a>
+                        <div class="card-body">
+                            <div class="small text-uppercase fw-bold text-muted">Free</div>
+                            <div class="mb-3">
+                                <span class="display-4 fw-bold">$0</span>
+                                <span class="text-muted">/ mo.</span>
+                            </div>
+                            <ul class="list-unstyled mb-4">
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    <strong>1 users</strong>
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    oo
+                                </li>
+                            </ul>
+                            <div class="d-grid"><a class="btn btn-outline-primary" href="#!">보러가기</a></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 세번째-->
+                <div class="col-lg-6 col-xl-4">
+                    <div class="card mb-5 mb-xl-0">
+                        <a href="Main.html"><img src="img/bg-main.jpg" width="327" height="200" alt=""></a>
+                        <div class="card-body">
+                            <div class="small text-uppercase fw-bold text-muted">Free</div>
+                            <div class="mb-3">
+                                <span class="display-4 fw-bold">$0</span>
+                                <span class="text-muted">/ mo.</span>
+                            </div>
+                            <ul class="list-unstyled mb-4">
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    <strong>1 users</strong>
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    oo
+                                </li>
+                            </ul>
+                            <div class="d-grid"><a class="btn btn-outline-primary" href="#!">보러가기</a></div>
+                        </div>
+                    </div>
+                </div>
+    </section>
+    <section class>
+        <div class="container px-5 my-5">
+            <div class="row gx-5 justify-content-center">
+                <div class="col-lg-6 col-xl-4">
+                    <div class="card mb-5 mb-xl-0">
+                        <a href="Main.html"><img src="img/bg-main.jpg" width="327" height="200" alt=""></a>
+                        <div class="card-body">
+                            <div class="small text-uppercase fw-bold text-muted">Free</div>
+                            <div class="mb-3">
+                                <span class="display-4 fw-bold">$0</span>
+                                <span class="text-muted">/ mo.</span>
+                            </div>
+                            <ul class="list-unstyled mb-4">
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    <strong>1 users</strong>
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    oo
+                                </li>
+                            </ul>
+                            <div class="d-grid"><a class="btn btn-outline-primary" href="#!">보러가기</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xl-4">
+                    <div class="card mb-5 mb-xl-0">
+                        <a href="Main.html"><img src="img/bg-main.jpg" width="327" height="200" alt=""></a>
+                        <div class="card-body">
+                            <div class="small text-uppercase fw-bold text-muted">Free</div>
+                            <div class="mb-3">
+                                <span class="display-4 fw-bold">$0</span>
+                                <span class="text-muted">/ mo.</span>
+                            </div>
+                            <ul class="list-unstyled mb-4">
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    <strong>1 users</strong>
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    oo
+                                </li>
+                            </ul>
+                            <div class="d-grid"><a class="btn btn-outline-primary" href="#!">보러가기</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xl-4">
+                    <div class="card mb-5 mb-xl-0">
+                        <a href="Main.html"><img src="img/bg-main.jpg" width="327" height="200" alt=""></a>
+                        <div class="card-body">
+                            <div class="small text-uppercase fw-bold text-muted">Free</div>
+                            <div class="mb-3">
+                                <span class="display-4 fw-bold">$0</span>
+                                <span class="text-muted">/ mo.</span>
+                            </div>
+                            <ul class="list-unstyled mb-4">
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    <strong>1 users</strong>
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    oo
+                                </li>
+                            </ul>
+                            <div class="d-grid"><a class="btn btn-outline-primary" href="#!">보러가기</a></div>
+                        </div>
+                    </div>
+                </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
